@@ -1,0 +1,88 @@
+.App {
+  background-color: #181818;
+  color: white;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+input {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #88bdbc;
+  width: calc(100% - 20px);
+  font-family:'Cascadia Code', monospace;
+  font-size: 16px;
+  text-shadow: 0 0 3px #88bdbc; 
+  transition: text-shadow 0.5s ease-in-out;
+  font-weight: 550;
+  caret-color: #88bdbc;
+ }
+
+input:focus {
+  text-shadow: 0 0 8px #88bdbc; 
+}
+
+.terminal {
+  white-space: pre-wrap; 
+  overflow-y: auto;
+  width: auto;
+  max-height: 100%;
+  font-family:'Cascadia Code', monospace;
+  font-size: 16px;
+  margin-left: auto;
+  color: #116466;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.cursor {
+  position: relative;
+}
+
+.intro {
+  font-family: 'Cascadia Code', monospace;
+  font-weight: 550;
+  color: #d9b08c;
+}
+
+.userInput {
+  color: #88bdbc;
+  text-shadow: 0 0 3px #88bdbc; 
+  transition: text-shadow 0.5s ease-in-out;
+  font-weight: 550;
+}
+
+.userInput:focus {
+  text-shadow: 0 0 8px #88bdbc; 
+}
+
+.key {
+  color: #88bdbc;
+  text-shadow: 0 0 3px #88bdbc; 
+  transition: text-shadow 0.5s ease-in-out;
+  font-weight: 550;
+}
+
+.key:focus {
+  text-shadow: 0 0 8px #88bdbc; 
+}
+
+a {
+  text-decoration: none;
+  color: #d9b08c;
+}
+
+a:hover {
+  color: #88bdbc;
+}
